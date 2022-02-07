@@ -1,0 +1,182 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: "Oswald",sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+     height: 600px;
+     background-color: rgb(102, 118, 138);
+     color: white;
+     text-align: center;
+     padding: 20px;
+}
+
+nav section {
+     display: inline;
+     margin-top: 20px;
+}
+
+a {
+     padding: 20px;
+     
+}
+
+h1 {
+     font-size: 5rem;
+     padding: 50px 0 0 0;
+}
+
+.leftnav {
+     
+}
+
+.logo {
+     margin: 0 30%;
+}
+
+.rightnav {
+     
+}
+
+header p {
+     width: 75%;
+     margin: auto;
+     font-size: 1.5rem;
+     line-height: 1.6;
+     margin-bottom: 50px;
+}
+
+.why {
+     height: 400px;
+     text-align: center;
+}
+
+h2 {
+     font-size: 2rem;
+     padding: 75px 0 0 0;
+}
+
+.why p {
+     width: 40%;
+     margin: auto;
+     font-size: 1.25rem;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     line-height: 1.4;
+     margin-bottom: 50px;
+}
+
+.visitor {
+     background-color: lightgray;
+     height: 700px;
+     display: inline-block;
+     text-align: center;
+}
+
+.visit {
+     width: 75%;
+     margin: 0 auto;
+}
+
+.visit button {
+     padding: 15px 30px;
+     background:lightgray;
+     border: 1px solid grey;
+}
+
+.visit img {
+     padding: 120px 0 0 0 ;
+}
+
+.visit section {
+     width: 50%;
+     float: left;
+     margin: auto 0;
+}
+
+.visit section * {
+     margin: 25px;
+}
+
+.visit section p {
+     width: 85%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.volunteer {
+     background-color: white;
+     height: 70vh;
+     text-align: center;
+}
+
+.volunteer p {
+     width: 40%;
+     margin: auto;
+     font-size: 1.25rem;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     line-height: 1.4;
+     margin-bottom: 50px;
+}
+
+.volunteer button {
+     padding: 15px 30px;
+     background:white;
+     border: 1px solid grey;
+}
+
+footer {
+     height: 300px;
+     background-color: rgb(21, 31, 42);
+     color: white;
+}
+
+footer > * {
+     padding: 20px;
+}
+
+.top {
+     height: 225px;
+     display: inline-block;
+}
+
+.top-left {
+     width: 20%;
+     height: 225px;
+     float: left;
+
+}
+
+.top-right {
+     width: 20%;
+     height: 225px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
